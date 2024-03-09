@@ -47,8 +47,14 @@ app.title("YouTube Downloader")
 app.geometry("600x300")
 
 download_option = tk.StringVar(value='MP3')
-url_entry = tk.Entry(app, width=60)
-url_entry.pack(pady=10)
+
+# Create a frame for URL label and entry
+url_frame = tk.Frame(app)
+url_frame.pack(pady=10)
+
+tk.Label(url_frame, text="Insert URL:").pack(side=tk.LEFT)
+url_entry = tk.Entry(url_frame, width=50)
+url_entry.pack(side=tk.LEFT)
 
 folder_path = tk.StringVar()
 resolution = tk.StringVar(value='720p')
