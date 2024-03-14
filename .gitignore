@@ -104,7 +104,7 @@ celerybeat.pid
 .env.production.local
 venv/
 ENV/
-env/
+Youtube_down_con_Env/
 env.bak/
 venv.bak/
 
