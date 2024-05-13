@@ -15,5 +15,5 @@ if errorlevel 1 (
 python Youtube_down_con_01.py
 
 echo.
-echo Skript wurde ausgeführt. Fenster schließen oder weitere Befehle eingeben.
+echo Skript wurde ausgefuehrt. Fenster schliessen oder weitere Befehle eingeben.
 pause
